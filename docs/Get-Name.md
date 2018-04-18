@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-Name
 
 ## SYNOPSIS
-This is just another command
+This is just another command.
 
 ## SYNTAX
 
