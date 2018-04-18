@@ -1,0 +1,17 @@
+﻿
+---- UPDATING Cmdlet : New-Greeting ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+	Parameter Updated: Greeting
+		Accepts Pipeline Input updated from False to True (ByValue)
+
+---- COMPLETED UPDATING Cmdlet : New-Greeting ----
+
+
