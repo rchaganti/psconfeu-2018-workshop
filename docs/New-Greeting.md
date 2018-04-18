@@ -35,7 +35,8 @@ This example prints Hello Ravi.
 ### Example 2
 ```
 PS C:\> 'a' .. 'c' | New-Greeting -Name 'PowerShell'
-
+```
+```
 Hello a b c
 ```
 
