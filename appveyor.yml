@@ -7,14 +7,10 @@ install:
 
 build_script:
     - ps: |
-        New-ExternalHelp -OutputPath en-US -Path ./docs -force
+        # TODO: create external help in en-US folder
 
 test_script:
     - ps: |
-        Import-Module .\Greet.psm1 -force
-        Update-MarkdownHelp -Path .\docs
-        $diff = git diff
-        if ($diff)
-        {
-            throw "Help is not up-to-date: $diff"
-        }
+        # TODO: load the Greet module and write a script
+        # that will throw if docs are not up-to-date with the code.
+        # In other words, if Update-MarkdownHelp changes the markdown.
